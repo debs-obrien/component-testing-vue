@@ -7,7 +7,6 @@ test("should render slots", async ({ mount }) => {
     <Card>
       <template v-slot:count>
         <Count />
-        <p>edit and it will work</p>
       </template>
     </Card>
   );
